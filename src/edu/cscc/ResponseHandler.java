@@ -5,7 +5,7 @@ import java.net.*;
 
 /**
  * ResponseHandler - send HTTP response
- * @author student name
+ * @author Shawn Myers
  */
 public class ResponseHandler {
     private static final String NOT_FOUND_RESPONSE =
@@ -155,7 +155,7 @@ public class ResponseHandler {
         if (i > 0) {
             ext = path.substring(i);
         }
-        // TODO code here
+
         switch (ext) {
             case ".html":
                 mimeType = "text/html";
@@ -172,7 +172,6 @@ public class ResponseHandler {
             default:
                 mimeType = null;
         }
-
         return mimeType;
     }
 }

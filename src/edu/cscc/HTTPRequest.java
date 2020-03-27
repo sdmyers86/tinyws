@@ -3,7 +3,7 @@ package edu.cscc;
 /**
  * HTTPRequest - parse HTTP Requests
  * (actually parse a small part of a GET Request: GET [filepath])
- * @author student name
+ * @author Shawn Myers
  */
 public class HTTPRequest {
     private String request;         // request string
@@ -38,7 +38,7 @@ public class HTTPRequest {
     private boolean parse(String r) {
     	String[] arr = r.split("[ \t\n?]");
     	if(arr.length >= 2 && arr[0].equals("GET") && arr[1] != null && !arr[1].isEmpty()) {
-//    	    request = arr[0];
+    	    request = arr[0];
     	    path = arr[1];
     	    return true;
         }

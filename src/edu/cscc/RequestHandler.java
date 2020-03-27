@@ -6,7 +6,7 @@ import java.net.Socket;
 /**
  * RequestHandler - handle HTTP GET Requests
  * (ignore anything else)
- * @author student name
+ * @author Shawn Myers
  */
 public class RequestHandler {
     private Socket connection;
@@ -22,7 +22,6 @@ public class RequestHandler {
      * Process an HTTP request
      */
     public void processRequest() throws IOException {
-        // TODO code here remove throws
         try{
             String newRequest = readRequest();
             HTTPRequest req = new HTTPRequest(newRequest);
@@ -32,6 +31,7 @@ public class RequestHandler {
             connection.close();
         }
     }
+
 
     // Read an HTTP Request
     private String readRequest() throws IOException {
@@ -43,15 +43,11 @@ public class RequestHandler {
         BufferedReader brdr = new BufferedReader(rdr, recbufsize);
         StringBuilder reqBuf = new StringBuilder();
         char[] cbuf = new char[recbufsize];
-        
-        // TODO code here
+
         brdr.read(cbuf);
         for(char c : cbuf) {
             reqBuf.append(c);
         }
         return reqBuf.toString();
-        
-//        // TODO - delete following statement
-//        return(null);
     }
 }
