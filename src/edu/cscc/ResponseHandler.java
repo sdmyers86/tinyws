@@ -5,7 +5,7 @@ import java.net.*;
 
 /**
  * ResponseHandler - send HTTP response
- * @author Shawn Myers
+ * @author Shawn Myers, Jacob Cohen
  */
 public class ResponseHandler {
     private static final String NOT_FOUND_RESPONSE =

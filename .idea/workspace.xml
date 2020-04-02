@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8be96e3d-36b6-4960-b8cc-4249db860cc5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/edu/cscc/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/edu/cscc/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/edu/cscc/HTTPRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/edu/cscc/HTTPRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/edu/cscc/RequestHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/edu/cscc/RequestHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/edu/cscc/ResponseHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/edu/cscc/ResponseHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/edu/cscc/TinyWS.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/edu/cscc/TinyWS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/cscc/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/cscc/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/cscc/HTTPRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/cscc/HTTPRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/cscc/RequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/cscc/RequestHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/cscc/ResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/cscc/ResponseHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/cscc/TinyWS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/cscc/TinyWS.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +141,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

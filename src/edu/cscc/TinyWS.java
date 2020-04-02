@@ -6,7 +6,7 @@ import java.net.Socket;
 
 /**
  * TinyWS a simplistic Tiny Web Server
- * @author Shawn Myers
+ * @author Shawn Myers, Jacob Cohen
  */
 public class TinyWS {
 

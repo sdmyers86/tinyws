@@ -6,7 +6,7 @@ import java.net.Socket;
 /**
  * RequestHandler - handle HTTP GET Requests
  * (ignore anything else)
- * @author Shawn Myers
+ * @author Shawn Myers, Jacob Cohen
  */
 public class RequestHandler {
     private Socket connection;

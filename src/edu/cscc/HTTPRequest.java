@@ -3,7 +3,7 @@ package edu.cscc;
 /**
  * HTTPRequest - parse HTTP Requests
  * (actually parse a small part of a GET Request: GET [filepath])
- * @author Shawn Myers
+ * @author Shawn Myers, Jacob Cohen
  */
 public class HTTPRequest {
     private String request;         // request string
